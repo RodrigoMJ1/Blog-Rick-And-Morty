@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poor+Story&display=swap');
+button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    background-color: #302222; /* Green */
+    border: none;
+    color: rgb(192, 55, 226);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+body{
+    background: linear-gradient(135deg, rgba(30, 211, 14, 0.925) 10%, rgb(89, 54, 212) 100%) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} 
+h3{
+    font-family: 'Poor Story', cursive;
+    color: black;
+}
+
+H1{
+    font-size:large;
+    font-family: 'Alfa Slab One', cursive;
+    color: black;
+}
+
+h4{
+    font-family: 'Poor Story', cursive;
+    color: white;
+}
+h5{
+    font-family: 'Poor Story', cursive;
+    text-align: center;
+}
+.Contenedor{
+    height: auto;
+    width: auto;
+    display: flex; 
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.TarjetaPersonaje{
+    height: auto;
+    width: 300px;
+    margin: 50px;
+    background-image: url("Imagenes/fondo_carta.jpg");
+    border-radius: 30px;
+    box-shadow: 1px 3px 25px #7ca549;
+}   
+.TarjetaPersonajeRandom{
+    height: auto ;
+    width: 300px;
+    margin: 50px;
+    background-image: url("Imagenes/fondoRandom.gif");
+    background-size:600px 1500px; 
+    border-radius: 30px;
+    box-shadow: 1px 3px 25px #7ca549;
+}   
+
+.TarjetaImagen{
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+.TarjetaImagenRandom{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.InfoPersonaje{
+    font-size: 1em;
+    margin: 10px;
+    line-height: 3px;
+}
+
+.inputlabelRandom{
+    display: block;
+    position: relative;
+    left: 20px;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    color: white;
+    font-size: 20px;
+}
+
+.inputlabel{
+    display: block;
+    position: relative;
+    left: 20px;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    color: black;
+    font-size: 20px;
+}
+
+#activar{
+    display: block;
+    position: relative;
+    left: 140px;
+    margin-bottom: 12px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+#activar~ .desplegable {display: none;overflow: hidden;}
+#activar:checked ~ .desplegable {display: block;}
+
+@media (max-width: 1000px) {
+    .cTarjeta{
+        justify-content: center;
+    }
+  }
